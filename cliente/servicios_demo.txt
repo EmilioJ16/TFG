@@ -1,0 +1,79 @@
+[
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": [
+            "66:77:88:99:AA:BC"
+        ],
+        "creation_type": "UNICAST",
+        "latency_constraint": "1500",
+        "size": "100",
+        "time": "50",
+        "type": "BEST_EFFORT"
+    },
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": [
+            "66:77:88:99:AA:BC"
+        ],
+        "creation_type": "UNICAST",
+        "latency_constraint": "50",
+        "size": "100",
+        "time": "100",
+        "type": "TSN"
+    },
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": [
+            "66:77:88:99:AA:BC"
+        ],
+        "creation_type": "UNICAST",
+        "latency_constraint": "50",
+        "size": "100",
+        "time": "100",
+        "type": "TSN"
+    },
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": [
+            "66:77:88:99:AA:BC"
+        ],
+        "creation_type": "UNICAST",
+        "latency_constraint": "50",
+        "size": "100",
+        "time": "100",
+        "type": "TSN"
+    },
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": [
+            "66:77:88:99:AA:BC"
+        ],
+        "creation_type": "UNICAST",
+        "latency_constraint": "50",
+        "size": "100",
+        "time": "100",
+        "type": "TSN"
+    },
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": [
+            "66:77:88:99:AA:BC"
+        ],
+        "creation_type": "UNICAST",
+        "latency_constraint": "50",
+        "size": "100",
+        "time": "100",
+        "type": "TSN"
+    },
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": [
+            "66:77:88:99:AA:BC"
+        ],
+        "creation_type": "UNICAST",
+        "latency_constraint": "50",
+        "size": "100",
+        "time": "100",
+        "type": "TSN"
+    }
+]

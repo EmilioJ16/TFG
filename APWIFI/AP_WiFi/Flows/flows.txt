@@ -1,0 +1,29 @@
+[
+    {
+        "sender": "00:11:22:33:44:55",  # MAC address of the sender
+        "receivers": ["66:77:88:99:AA:BB", "CC:DD:EE:FF:00:11"],  # List of MAC addresses of the receivers
+        "creation_type": "MULTICAST",  # Type of connection (UNICAST/MULTICAST/BROADCAST)
+        "latency_constraint": "5",  # Maximum latency in milliseconds
+        "size": "1000",  # Packet size in bytes
+        "time": "50",  # Interval between packets in milliseconds
+        "type": "TSN"  # Type of traffic (TSN for isochronous, or other values for best effort)
+    },
+    {
+        "sender": "00:11:22:33:44:56",
+        "receivers": ["66:77:88:99:AA:BC"],
+        "creation_type": "UNICAST",
+        "latency_constraint": "1500",
+        "size": "1000",
+        "time": "50",
+        "type": "BEST_EFFORT"  # Non-TSN traffic is considered best effort
+    },
+    {
+        "sender": "00:11:22:33:44:57",
+        "receivers": ["66:77:88:99:AA:BD", "66:77:88:99:AA:BE"],
+        "creation_type": "MULTICAST",
+        "latency_constraint": "50",
+        "size": "1000",
+        "time": "50",
+        "type": "TSN"
+    }
+]
